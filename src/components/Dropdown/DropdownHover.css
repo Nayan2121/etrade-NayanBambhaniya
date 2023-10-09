@@ -1,0 +1,15 @@
+.dropdown { 
+    position: relative; 
+    display: inline-block; 
+  } 
+  .dropdown-content { 
+    display: none; 
+    position: absolute; 
+    border-radius: 20px; 
+  } 
+  .dropdown-content a { 
+    text-decoration: none; 
+    display: block; 
+  } 
+  .show {display: block;}
+  
