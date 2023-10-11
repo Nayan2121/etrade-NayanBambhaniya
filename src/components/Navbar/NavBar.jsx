@@ -55,6 +55,7 @@ export const NavBar = () => {
                             <li><a href=""></a>Home-NFT</li>
                             <li><a href=""></a>Home-NFT</li>
                             <li><a href=""></a>Home-NFT</li>
+                            <li><a href=""></a>Home-NFT</li>
                         </ul>
                     </div>
                 </div>
