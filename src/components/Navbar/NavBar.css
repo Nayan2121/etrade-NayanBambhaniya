@@ -13,16 +13,21 @@
     position: absolute;
     width: 15rem;
     z-index: 100;
-    bottom: -220px;
+    /* bottom: -220px; */
+    top: 90px;
 }
 .home-content ul li{
     border-radius: 5px;
     color: black;
-    padding: 12px 16px;
+    /* padding: 10px 16px; */
+    line-height: 35px;
     display: block;
 }
 .home-dropdown:hover .home-content{
     display: block;
+}
+.list{
+    padding: 10px 20px;
 }
 
 
