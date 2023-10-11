@@ -23,9 +23,9 @@ export const NavBar = () => {
                     </div>
                 </div>
                 <div className='home-dropdown'>
-                    <button className='home-button underline decoration-[3px] underline-offset-4'>Home<i class=" fa-solid fa-angle-down text-gray-500 transition-all text-xs ml-1"></i></button>
+                    <button className='home-button underline decoration-[3px] underline-offset-4 h-24'>Home<i class="fa-solid fa-angle-down text-gray-500 transition-all text-xs ml-1"></i></button>
                     <div className='home-content'>
-                        <ul className='list'>
+                        <ul className='list bg-white rounded-md'>
                             <li><a href=""></a>Home-Electronics</li>
                             <li><a href=""></a>Home-NFT</li>
                             <li><a href=""></a>Home-NFT</li>
