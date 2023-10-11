@@ -1,11 +1,54 @@
-.button::before{
-    content: "";
-    height: 20px;
-    background-color: black;
-    position: absolute;
-    bottom: 29px;
-    left: 0;
+.navbar{
+    min-width: 550px;
 }
-button{
+.home-dropdown{
+    position: relative;
+    display: inline-block;
+}
+.home-button{
+    border: none;
+}
+.home-content{
+    display: none;
+    position: absolute;
+    width: 15rem;
+    z-index: 100;
+    bottom: -220px;
+}
+.home-content ul li{
+    border-radius: 5px;
+    color: black;
+    padding: 12px 16px;
+    display: block;
+}
+.home-dropdown:hover .home-content{
+    display: block;
+}
+
+
+/* Nav-Icon */
+.btn-hover{
     position: relative;
 }
+
+.btn-hover:active {
+    transform: scale(0.97);
+  }
+
+.btn-hover:hover .nav-icon {
+    width: 2em;
+    height: 2em;
+    background-color: #ff497c;
+  }
+
+.nav-icon {
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    transition-duration: 200ms;
+    border-radius: 100%;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
