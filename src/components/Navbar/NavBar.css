@@ -1,5 +1,6 @@
 .navbar{
-    min-width: 550px;
+    /* max-width: 1000px; */
+    width: 550px;
 }
 .home-dropdown{
     position: relative;

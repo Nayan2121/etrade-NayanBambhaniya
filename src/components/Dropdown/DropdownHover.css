@@ -5,9 +5,11 @@
   .dropdown-content { 
     display: none; 
     position: absolute; 
-    border-radius: 20px; 
+    border-radius: 5px; 
+    padding: 5px 0px;
   } 
   .dropdown-content a { 
+    margin: 5px 10px;
     text-decoration: none; 
     display: block; 
   } 
