@@ -1,6 +1,11 @@
+.main-navbar{
+    max-width: 1400px;
+}
 .navbar{
-    /* max-width: 1000px; */
+
     width: 550px;
+    min-width: 550px;
+    padding: 0;
 }
 .home-dropdown{
     position: relative;
@@ -27,7 +32,7 @@
 .home-dropdown:hover .home-content{
     display: block;
 }
-.list{
+.home-content ul{
     padding: 10px 20px;
 }
 

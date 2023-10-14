@@ -3,12 +3,12 @@ import '../Navbar/NavBar.css'
 
 export const NavBar = () => {
     return (
-        <div className='flex justify-between px-10 bg-white rounded-md items-center hover:shadow-md'>
+        <div className='main-navbar flex justify-between px-10 bg-white rounded-md items-center hover:shadow-md'>
             <div>
-                <img src="./src/assets/Home/Logo.png" alt="" />
+                <img className='' src="./src/assets/Home/Logo.png" alt="" />
             </div>
 
-            <div className='navbar flex justify-between p-0 m-0'>
+            <div className='navbar flex justify-between'>
                 <div className='home-dropdown'>
                     <button className='home-button underline decoration-[3px] underline-offset-4 h-24'>Home<i class="fa-solid fa-angle-down text-gray-500 transition-all text-xs ml-1"></i></button>
                     <div className='home-content'>
