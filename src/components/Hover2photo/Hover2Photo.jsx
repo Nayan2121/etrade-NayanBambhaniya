@@ -5,20 +5,20 @@ const HoverPhoto = () => {
         <>
             {/* hover photos :- 2  */}
             <div className='flex justify-between mt-8'>
-                <div className='relative '>
-                    <img src="./src/assets/home/asset 45.png" alt="" />
+                <div className='relative overflow-hidden group'>
+                    <img className='group-hover:scale-110 duration-500' src="./src/assets/home/asset 45.png" alt="" />
                     <div className='absolute top-12 right-32 text-white'>
                         <h1 className=' text-[40px] font-bold leading-none mb-6'>Rich sound,<br />for less.</h1>
-                        <div className='text-gray-500'>
+                        <div className='text-gray-500 group-hover:text-white duration-500'>
                             <a href="" >Collections </a><span className='pl-2'><i class="ri-arrow-right-line"></i></span>
                         </div>
                     </div>
                 </div>
-                <div className='relative'>
-                    <img src="./src/assets/home/asset 46.png" alt="" />
+                <div className='relative overflow-hidden group'>
+                    <img className='group-hover:scale-110 duration-500' src="./src/assets/home/asset 46.png" alt="" />
                     <div className='absolute top-12 left-16 text-white'>
                         <div className='text-gray-400 mb-6'>
-                            <a href="">50% Offer In Winter</a>
+                            <a className='group-hover:text-white duration-500' href="">50% Offer In Winter</a>
                         </div>
                         <h1 className=' text-[40px] font-bold leading-none '>Get VR<br></br>Reality Glass</h1>
                     </div>

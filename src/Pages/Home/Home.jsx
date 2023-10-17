@@ -9,9 +9,9 @@ import Service from "../../components/Service/Service";
 export function Home() {
   return (
     <>
-      <div className="main-home  bg-[#F9F3F0] px-64">
+      <div className="main-home px-64">
 
-        <section className='py-2'>
+        <section className='py-2 bg-[#F9F3F0]'>
           <div className='flex justify-between'>
             <div className='flex'>
               <DropdownHover1 />
@@ -25,7 +25,7 @@ export function Home() {
           <NavBar />
         </section>
 
-        <section>
+        <section className="">
           <Service/>
         </section>
         <section>
