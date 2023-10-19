@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import { Home } from './Pages/Home/Home'
-import Account from './Pages/Account/Account'
+import ShopWithSidebar from './Pages/Shop/Shop with sidebar/ShopWithSidebar'
 
 
 function App() {
@@ -10,7 +10,9 @@ function App() {
   return (
     <>
     <Home/>
-    <Account/>
+    
+    <ShopWithSidebar/>
+
     </>
   )
 }

@@ -27,12 +27,12 @@ export function Home() {
         </section>
 
         <section className="">
-          <Service/>
+          <Service />
         </section>
         <section>
-          <HoverPhoto/>
-          <SubscribePhoto/>
-          <Footer/>
+          <HoverPhoto />
+          <SubscribePhoto />
+          <Footer />
         </section>
       </div>
     </>
