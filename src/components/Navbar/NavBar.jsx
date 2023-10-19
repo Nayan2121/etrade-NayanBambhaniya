@@ -6,7 +6,7 @@ export const NavBar = () => {
         <div className='flex justify-between items-center bg-white rounded-md shadow-md px-10 mt-2'>
             {/* logo  */}
             <div>
-                <img src="./src/assets/home/asset 0.png" alt="" />
+                <img src="./src/assets/home/Logo.png" alt="" />
             </div>
 
             {/* navbar list  */}

@@ -5,6 +5,7 @@ import "./home.css"
 import Footer from "../../components/Footer/footer";
 import HoverPhoto from "../../components/Hover2photo/Hover2Photo";
 import Service from "../../components/Service/Service";
+import SubscribePhoto from "../../components/Subscribe/Subscribe";
 
 export function Home() {
   return (
@@ -30,6 +31,7 @@ export function Home() {
         </section>
         <section>
           <HoverPhoto/>
+          <SubscribePhoto/>
           <Footer/>
         </section>
       </div>
