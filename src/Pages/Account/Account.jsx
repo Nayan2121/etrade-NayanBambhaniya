@@ -1,10 +1,13 @@
 import React from 'react'
+import { DropdownHover1, DropdownHover2 } from '../../components/Dropdown/DropdownHover'
+
 
 const Account = () => {
     return (
         <>
-            <div className='main-header'>
-                <img src="./src/assets/Pages/account/asset 25.png" alt="" />
+            <div className='dark bg-black'>
+                <DropdownHover1/>
+                <DropdownHover2/>
             </div>
         </>
     )

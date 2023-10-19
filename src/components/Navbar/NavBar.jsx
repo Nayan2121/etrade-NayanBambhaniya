@@ -3,14 +3,16 @@ import '../Navbar/NavBar.css'
 
 export const NavBar = () => {
     return (
-        <div className='main-navbar flex justify-between px-10 bg-white rounded-md items-center hover:shadow-md'>
+        <div className='flex justify-between items-center bg-white rounded-md shadow-md px-10 mt-2'>
+            {/* logo  */}
             <div>
-                <img className='' src="./src/assets/Home/Logo.png" alt="" />
+                <img src="./src/assets/home/asset 0.png" alt="" />
             </div>
 
-            <div className='navbar flex justify-between'>
+            {/* navbar list  */}
+            <div className='grid grid-cols-6 gap-x-10'>
                 <div className='home-dropdown'>
-                    <button className='home-button underline decoration-[3px] underline-offset-4 h-24'>Home<i class="fa-solid fa-angle-down text-gray-500 transition-all text-xs ml-1"></i></button>
+                    <button className='font-semibold underline decoration-[2px] underline-offset-4 h-24 '><span className='text-gray-800 hover:text-black'>Home</span><i class="fa-solid fa-angle-down text-gray-500 transition-all text-xs ml-1"></i></button>
                     <div className='home-content'>
                         <ul className='list bg-white rounded-md'>
                             <li><a className='text-[#ff497c]' href="">Home-Electronics</a></li>
@@ -24,8 +26,9 @@ export const NavBar = () => {
                     </div>
                 </div>
 
-                <div className='home-dropdown'>
-                    <button className='home-button hover:underline decoration-[3px] underline-offset-4 h-24'>Shop<i class="fa-solid fa-angle-down text-gray-500 transition-all text-xs ml-1"></i></button>
+                <div className='home-dropdown text-gray-800 '>
+                    <button className='navbar-button font-semibold h-24'>Shop</button>
+                    <i class="fa-solid fa-angle-down text-gray-500 transition-all text-xs ml-1"></i>
                     <div className='home-content'>
                         <ul className='list bg-white rounded-md'>
                             <li><a className='hover:text-[#ff497c]' href="">Shop With Sidebar</a></li>
@@ -42,8 +45,9 @@ export const NavBar = () => {
                     </div>
                 </div>
 
-                <div className='home-dropdown'>
-                    <button className='home-button hover:underline decoration-[3px] underline-offset-4 h-24'>Pages<i class="fa-solid fa-angle-down text-gray-500 transition-all text-xs ml-1"></i></button>
+                <div className='home-dropdown text-gray-800'>
+                    <button className='navbar-button font-semibold h-24'>Pages</button>
+                    <i class="fa-solid fa-angle-down text-gray-500 transition-all text-xs ml-1"></i>
                     <div className='home-content'>
                         <ul className='list bg-white rounded-md'>
                             <li><a className='hover:text-[#ff497c]' href="">Wishlist</a></li>
@@ -62,12 +66,13 @@ export const NavBar = () => {
                     </div>
                 </div>
 
-                <div className='home-dropdown'>
-                    <button className='home-button hover:underline decoration-[3px] underline-offset-4 h-24'>About</button>
+                <div className='home-dropdown text-gray-800'>
+                    <button className='navbar-button font-semibold h-24'>About</button>
                 </div>
 
-                <div className='home-dropdown'>
-                    <button className='home-button hover:underline decoration-[3px] underline-offset-4 h-24'>Blog<i class="fa-solid fa-angle-down text-gray-500 transition-all text-xs ml-1"></i></button>
+                <div className='home-dropdown text-gray-800'>
+                    <button className='navbar-button font-semibold h-24'>Blog</button>
+                    <i class="fa-solid fa-angle-down text-gray-500 transition-all text-xs ml-1"></i>
                     <div className='home-content'>
                         <ul className='list bg-white rounded-md'>
                             <li><a className='hover:text-[#ff497c]' href="">Blog List</a></li>
@@ -81,24 +86,25 @@ export const NavBar = () => {
                     </div>
                 </div>
 
-                <div className='home-dropdown'>
-                    <button className='home-button hover:underline decoration-[3px] underline-offset-4 h-24'>Contact</button>
+                <div className='home-dropdown text-gray-800'>
+                    <button className='navbar-button font-semibold h-24'>Contact</button>
                 </div>
 
             </div>
 
+            {/* nav icon  */}
             <div className='text-2xl text-gray-600 flex justify-between w-[160px] h-10'>
-                <ul className='flex justify-between w-[20px] btn-hover'>
-                    <li className='nav-icon h-10 w-10 flex justify-center items-center rounded-full'><i class="ri-search-line hover:text-slate-100"></i></li>
+                <ul className='flex justify-between w-[20px] btn-hover hover:text-slate-100'>
+                    <li className='nav-icon h-10 w-10 flex justify-center items-center rounded-full'><i class="ri-search-line "></i></li>
                 </ul>
-                <ul className='flex justify-between w-[20px] btn-hover'>
-                    <li className='nav-icon h-10 w-10 flex justify-center items-center rounded-full'><i class="ri-heart-line hover:text-slate-100"></i></li>
+                <ul className='flex justify-between w-[20px] btn-hover hover:text-slate-100'>
+                    <li className='nav-icon h-10 w-10 flex justify-center items-center rounded-full'><i class="ri-heart-line "></i></li>
                 </ul>
-                <ul className='flex justify-between w-[20px] btn-hover'>
-                    <li className='nav-icon h-10 w-10 flex justify-center items-center rounded-full'><i class="ri-shopping-cart-line hover:text-slate-100"></i></li>
+                <ul className='flex justify-between w-[20px] btn-hover hover:text-slate-100'>
+                    <li className='nav-icon h-10 w-10 flex justify-center items-center rounded-full'><i class="ri-shopping-cart-line "></i></li>
                 </ul>
-                <ul className='flex justify-between w-[20px] btn-hover'>
-                    <li className='nav-icon h-10 w-10 flex justify-center items-center rounded-full'><i class="ri-user-3-line hover:text-slate-100"></i></li>
+                <ul className='flex justify-between w-[20px] btn-hover hover:text-slate-100'>
+                    <li className='nav-icon h-10 w-10 flex justify-center items-center rounded-full'><i class="ri-user-3-line "></i></li>
                 </ul>
             </div>
         </div>

@@ -11,7 +11,7 @@ export function Home() {
     <>
       <div className="main-home px-64">
 
-        <section className='py-2 bg-[#F9F3F0]'>
+        <section className='py-2 '>
           <div className='flex justify-between'>
             <div className='flex'>
               <DropdownHover1 />
@@ -21,7 +21,7 @@ export function Home() {
           </div>
         </section>
 
-        <section>
+        <section className="sticky top-2 z-20">
           <NavBar />
         </section>
 

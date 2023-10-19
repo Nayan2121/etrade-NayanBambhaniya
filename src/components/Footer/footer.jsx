@@ -352,7 +352,7 @@ const Footer = () => {
 
 
             {/* footer-bottom-icon  */}
-            <div className='flex justify-between items-center mt-20'>
+            <div className='flex justify-between items-center mt-20 '>
                 <div className='text-2xl text-gray-600 flex justify-between w-[160px] h-10'>
                     <ul className='flex justify-between w-[20px] btn-hover hover:text-slate-100'>
                         <li className='nav-icon flex justify-center items-center rounded-full'><i class="ri-facebook-fill text-lg"></i></li>
