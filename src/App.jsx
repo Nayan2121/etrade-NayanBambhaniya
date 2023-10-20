@@ -1,19 +1,11 @@
-import { useState } from 'react'
-import './App.css'
-import { Home } from './Pages/Home/Home'
-import ShopWithSidebar from './Pages/Shop/Shop with sidebar/ShopWithSidebar'
+import React from 'react'
+import Home from './PAGES/Home/Home'
 
-
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-    <>
-    <Home/>
-    
-    <ShopWithSidebar/>
-
-    </>
+    <div>
+      <Home/>
+    </div>
   )
 }
 

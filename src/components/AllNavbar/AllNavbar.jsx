@@ -1,14 +1,14 @@
 import React from 'react'
-import '../AllNavbar/AllNavbar.css'
+import '../AllNavbar/AllNavstyle.css'
 
 
-export const AllNavBar = () => {
+export const  AllNavBar = () => {
     return (
 
         <div className='flex justify-between items-center bg-white px-24'>
             {/* logo  */}
             <div>
-                <img src="./src/assets/home/Logo.png" alt="" />
+                <img src="./src/assets/home/asset 0.png" alt="" />
             </div>
 
             {/* navbar list  */}
@@ -96,7 +96,7 @@ export const AllNavBar = () => {
 
 
             {/* serach bar  */}
-            <div class="border border-gray-400 text-gray-500 rounded-md ">
+            <div class="border text-gray-500 rounded-md ">
                 <i class="ri-search-line mx-2 text-lg"></i>
                 <input className='w-56 py-2 placeholder:pl-2' type="search" placeholder='What are you looking for?' />
             </div>
@@ -135,3 +135,11 @@ export const NavBottom = () => {
         </>
     )
 }
+
+
+
+
+
+
+
+
