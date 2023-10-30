@@ -29,7 +29,7 @@ const ShopNoSidebar = () => {
                 </section>
 
                 <section className='SHOP-SPEAKER'>
-                    <Speaker />
+                    <Speaker name="Explore All Products"/>
                 </section>
 
                 <section className='SHOP-FOOTER px-24'>

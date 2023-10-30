@@ -14,13 +14,13 @@ const Cart = () => {
                     <div className='flex justify-between items-center px-24'>
                         <div className='flex '>
                             <AllDropdownHover1 />
-                            <AllDropdownHover2/>
+                            <AllDropdownHover2 />
                         </div>
                         <AllRightpart />
                     </div>
                 </section>
 
-                <section className='SHOP-NAVBAR sticky top-0 z-20 '>
+                <section className='SHOP-NAVBAR sticky top-0 z-20'>
                     <AllNavBar />
                 </section>
 
@@ -28,12 +28,9 @@ const Cart = () => {
                     <NavBottom />
                 </section>
 
-                <section className='SHOP-SPEAKER'>
-                    <Speaker />
-                </section>
+                
 
                 <section className='SHOP-FOOTER px-24'>
-                <SubscribePhoto/>
                     <Footer />
                 </section>
             </div>

@@ -2,7 +2,6 @@ import React from 'react'
 
 import { AllDropdownHover1, AllDropdownHover2, AllRightpart } from '../../Components/AllDropdown/AllDropdownHover'
 import { AllNavBar, NavBottom } from '../../Components/AllNavbar/AllNavBar'
-import Speaker from '../../Components/Speaker'
 import SubscribePhoto from '../../Components/SubscribePhoto'
 import Footer from '../../Components/Footer/Footer'
 
@@ -14,7 +13,7 @@ const ProductV6 = () => {
                     <div className='flex justify-between items-center px-24'>
                         <div className='flex '>
                             <AllDropdownHover1 />
-                            <AllDropdownHover2/>
+                            <AllDropdownHover2 />
                         </div>
                         <AllRightpart />
                     </div>
@@ -28,12 +27,8 @@ const ProductV6 = () => {
                     <NavBottom />
                 </section>
 
-                <section className='SHOP-SPEAKER'>
-                    <Speaker />
-                </section>
-
                 <section className='SHOP-FOOTER px-24'>
-                <SubscribePhoto/>
+                    <SubscribePhoto />
                     <Footer />
                 </section>
             </div>

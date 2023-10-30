@@ -5,7 +5,7 @@ import '../HomeNavbar/HomeNavstyle.css'
  const HomeNavBar = () => {
     return (
         
-            <div className='flex justify-around items-center bg-white rounded-md shadow-md  mt-2'>
+            <div className='flex justify-around items-center bg-white rounded-md shadow-md '>
                 {/* logo  */}
                 <div>
                     <img src="./src/assets/home/asset 0.png" alt="" />

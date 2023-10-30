@@ -1,10 +1,12 @@
 import React from 'react'
-import Home from './PAGES/Home/Home'
+import AllPages from './PAGES/AllPagesComponents/AllPages'
+
+
 
 const App = () => {
   return (
     <div>
-      <Home/>
+      <AllPages/>
     </div>
   )
 }

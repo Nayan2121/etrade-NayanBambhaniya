@@ -2,7 +2,6 @@ import React from 'react'
 
 import { AllDropdownHover1, AllDropdownHover2, AllRightpart } from '../../Components/AllDropdown/AllDropdownHover'
 import { AllNavBar, NavBottom } from '../../Components/AllNavbar/AllNavBar'
-import Speaker from '../../Components/Speaker'
 import SubscribePhoto from '../../Components/SubscribePhoto'
 import Footer from '../../Components/Footer/Footer'
 
@@ -26,10 +25,6 @@ const ProductV3 = () => {
 
                 <section className='SHOP-NAV-BOTTOM'>
                     <NavBottom />
-                </section>
-
-                <section className='SHOP-SPEAKER'>
-                    <Speaker />
                 </section>
 
                 <section className='SHOP-FOOTER px-24'>
