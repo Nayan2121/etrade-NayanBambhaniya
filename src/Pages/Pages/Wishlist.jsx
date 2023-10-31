@@ -9,9 +9,9 @@ import Footer from '../../Components/Footer/Footer'
 const Wishlist = () => {
     return (
         <>
-            <div>
+            <div >
                 <section className='SHOP-DROPDOWN py-2 bg-[#292930]'>
-                    <div className='flex justify-between items-center px-24'>
+                    <div className='flex justify-between items-center px-72'>
                         <div className='flex '>
                             <AllDropdownHover1 />
                             <AllDropdownHover2 />
@@ -20,7 +20,7 @@ const Wishlist = () => {
                     </div>
                 </section>
 
-                <section className='SHOP-NAVBAR sticky top-0 z-20 '>
+                <section className='SHOP-NAVBAR sticky top-0 z-20 shadow-md'>
                     <AllNavBar />
                 </section>
 
@@ -29,7 +29,7 @@ const Wishlist = () => {
                 </section>
 
                 <section className='TABLE-LIST'>
-                    <div className='px-24 my-[100px] '>
+                    <div className='px-72 my-[100px] '>
                         <div>
                             <h1 className="text-2xl font-semibold text-[#292930]">
                                 My Wish List on eTrade
@@ -91,7 +91,7 @@ const Wishlist = () => {
                     </div>
                 </section>
 
-                <section className='SHOP-FOOTER px-24'>
+                <section className='SHOP-FOOTER px-72'>
                     <Footer />
                 </section>
             </div>

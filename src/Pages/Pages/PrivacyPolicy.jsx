@@ -9,7 +9,7 @@ const PrivacyPolicy = () => {
         <div>
             <div>
                 <section className='SHOP-DROPDOWN py-2 bg-[#292930]'>
-                    <div className='flex justify-between items-center px-24'>
+                    <div className='flex justify-between items-center px-72'>
                         <div className='flex '>
                             <AllDropdownHover1 />
                             <AllDropdownHover2 />
@@ -30,7 +30,7 @@ const PrivacyPolicy = () => {
                     <Speaker name="Privacy Policy" />
                 </section>
 
-                <section className='Policy px-24'>
+                <section className='Policy px-72'>
                     <div className='mr-64'>
                         <div className='mt-[80px]  text-[22px] font-semibold text-[#27272E] '>
                             <h1 className='underline underline-offset-[20px] decoration-[3px] decoration-[#3577F0]'>This Privacy policy was published on February 26th, 2022.</h1>
@@ -108,7 +108,7 @@ const PrivacyPolicy = () => {
                     </div>
                 </section>
 
-                <section className='SHOP-FOOTER px-24'>
+                <section className='SHOP-FOOTER px-72'>
                     <Footer />
                 </section>
 

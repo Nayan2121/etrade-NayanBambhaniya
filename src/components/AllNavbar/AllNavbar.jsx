@@ -5,7 +5,7 @@ import '../AllNavbar/AllNavstyle.css'
 export const  AllNavBar = () => {
     return (
 
-        <div className='flex justify-between items-center bg-white px-24'>
+        <div className='flex justify-between items-center bg-white px-72 shadow-md'>
             {/* logo  */}
             <div>
                 <img src="./src/assets/home/asset 0.png" alt="" />

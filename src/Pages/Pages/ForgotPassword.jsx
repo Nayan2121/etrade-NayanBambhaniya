@@ -30,7 +30,7 @@ const ForgotPassword = () => {
                 <div className='absolute top-0 -z-10'>
                     <img className='h-screen' src="../src/assets/pages/sign up/asset 1.jpeg" alt="" />
                     <div className='absolute top-20  pl-[100px]'>
-                        <p className='text-[#292930] font-bold text-2xl mt-16'>We Offer the Best<br /> Products</p>
+                        <p className='text-[#292930] font-semibold text-3xl mt-24'>We Offer the Best Products</p>
                     </div>
                 </div>
             </div>

@@ -10,19 +10,19 @@ const ComingSoon = () => {
                     <h1 className='text-4xl font-bold text-[#27272E] mb-4'>Our new website is on the way</h1>
                     <p className='text-gray-500 mb-[30px]'>We're coming soon! We're working hard to give <br /> you the best experince.</p>
                     <div className='flex '>
-                        <div className='bg-[#3577F0] text-white rounded-full py-5 px-9 mx-auto shadow-2xl shadow-blue-400'>
+                        <div className='bg-[#3577F0] text-white rounded-full py-5 px-9 mx-auto shadow-md shadow-blue-400'>
                             <p className='flex justify-center text-3xl font-semibold'>0</p>
                             <p className='text-sm'>Day</p>
                         </div>
-                        <div className='bg-[#3577F0] text-white rounded-full py-5 px-8 mx-auto shadow-2xl shadow-blue-400'>
+                        <div className='bg-[#3577F0] text-white rounded-full py-5 px-8 mx-auto shadow-md shadow-blue-400'>
                             <p className='flex justify-center text-3xl font-semibold'>00</p>
                             <p className='text-sm'>Hrs</p>
                         </div>
-                        <div className='bg-[#3577F0] text-white rounded-full py-5 px-8 mx-auto shadow-2xl shadow-blue-400'>
+                        <div className='bg-[#3577F0] text-white rounded-full py-5 px-8 mx-auto shadow-md shadow-blue-400'>
                             <p className='flex justify-center text-3xl font-semibold'>00</p>
                             <p className='text-sm'>Min</p>
                         </div>
-                        <div className='bg-[#3577F0] text-white rounded-full py-5 px-8 mx-auto shadow-2xl shadow-blue-400'>
+                        <div className='bg-[#3577F0] text-white rounded-full py-5 px-8 mx-auto shadow-md shadow-blue-400'>
                             <p className='flex justify-center text-3xl font-semibold'>00</p>
                             <p className='text-sm'>Sec</p>
                         </div>

@@ -8,7 +8,7 @@ const Error404 = () => {
         <>
             <div>
                 <section className='SHOP-DROPDOWN py-2 bg-[#292930]'>
-                    <div className='flex justify-between items-center px-24'>
+                    <div className='flex justify-between items-center px-72'>
                         <div className='flex '>
                             <AllDropdownHover1 />
                             <AllDropdownHover2 />
@@ -25,7 +25,7 @@ const Error404 = () => {
                     <NavBottom />
                 </section>
 
-                <section className='Error404 px-24 my-[100px]'>
+                <section className='Error404 px-72 my-[100px]'>
                     <div className='flex items-center'>
                         <div className='pr-[100px]'>
                             <div className='flex mb-2'>
@@ -58,7 +58,7 @@ const Error404 = () => {
                     </div>
                 </section>
 
-                <section className='SHOP-FOOTER px-24'>
+                <section className='SHOP-FOOTER px-72'>
                     <Footer />
                 </section>
             </div>

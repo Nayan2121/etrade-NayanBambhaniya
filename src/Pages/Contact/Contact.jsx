@@ -32,7 +32,7 @@ const Contact = () => {
                     <Speaker name="Contact With Us" />
                 </section>
 
-                <section className='FORM-MAP px-24'>
+                <section className='FORM-MAP px-72'>
                     <div className='flex my-[100px]'>
 
                         <div>
@@ -101,7 +101,7 @@ const Contact = () => {
                     </div>
                 </section>
 
-                <section className='SHOP-FOOTER px-24'>
+                <section className='SHOP-FOOTER px-72'>
                     <Footer />
                 </section>
             </div>

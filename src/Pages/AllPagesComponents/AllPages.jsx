@@ -46,7 +46,7 @@ export default function AllPages() {
       {/* <ShopWithSidebar/> */}
       {/* <ShopNoSidebar /> */}
       {/* <ProductV1 /> */}
-      <ProductV2 />
+      {/* <ProductV2 /> */}
       {/* <ProductV3 /> */}
       {/* <ProductV4 /> */}
       {/* <ProductV5 /> */}
@@ -59,7 +59,7 @@ export default function AllPages() {
       {/* <Wishlist/> */}
       {/* <Cart/> */}
       {/* <Checkout/> */}
-      {/* <Account/> */}
+      <Account/>
       {/* <SignUp/> */}
       {/* <SignIn/> */}
       {/* <ForgotPassword/> */}

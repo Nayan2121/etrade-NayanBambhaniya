@@ -10,7 +10,7 @@ const ProductV1 = () => {
         <>
             <div>
                 <section className='SHOP-DROPDOWN py-2 bg-[#292930]'>
-                    <div className='flex justify-between items-center px-24'>
+                    <div className='flex justify-between items-center px-72'>
                         <div className='flex '>
                             <AllDropdownHover1 />
                             <AllDropdownHover2 />
@@ -28,7 +28,7 @@ const ProductV1 = () => {
                 </section>
 
                 <section className='IMAGES-AND-DISCRIPTION  bg-[#F9F3F0]'>
-                    <div className='grid grid-cols-2 gap-10 py-[100px] px-24 '>
+                    <div className='grid grid-cols-2 gap-10 py-[100px] px-72 '>
 
                         <div className='main-div-photos grid grid-cols-2 gap-5'>
                             <img className='rounded-md bg-cover' src="./src/assets/shop/p1/asset 2.png" alt="" />
@@ -166,7 +166,7 @@ const ProductV1 = () => {
                     </div>
                 </section>
 
-                <section className='SHOP-FOOTER px-24'>
+                <section className='SHOP-FOOTER px-72'>
                     <SubscribePhoto />
                     <Footer />
                 </section>

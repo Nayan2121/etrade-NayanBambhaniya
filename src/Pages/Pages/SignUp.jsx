@@ -27,27 +27,26 @@ const SignUp = () => {
                 <div className='absolute top-0 -z-10'>
                     <img className='h-screen' src="../src/assets/pages/sign up/asset 1.jpeg" alt="" />
                     <div className='absolute top-20  pl-[100px]'>
-                        <p className='text-[#292930] font-bold text-2xl mt-16'>We Offer the Best<br /> Products</p>
+                        <p className='text-[#292930] font-semibold text-3xl mt-24'>We Offer the Best Products</p>
                     </div>
                 </div>
             </div>
 
-
             {/* form-section  */}
-            <div className='ml-[50%] mt-5 overflow-auto h-[500px] pl-5 mr-10'>
+            <div className='ml-[50%] mt-10 overflow-auto h-[600px] pl-5 mr-10'>
                 <form>
                     <h1 className='text-[#292930] font-bold text-3xl'>I'm New Here</h1>
                     <p className='text-gray-400 text-sm mt-5'>Enter your detail below</p>
 
-                    <div className='relative text-gray-500  mt-14'>
+                    <div className='relative text-gray-500  mt-10'>
                         <label className='absolute -top-3 left-7 bg-white px-2 font-semibold text-sm'>User Name</label>
                         <input type="text" placeholder='anniemario' className='border border-gray-300 w-[400px] px-9 py-5 rounded-md font-normal focus:outline-blue-400' />
                     </div>
-                    <div className='relative text-gray-500  mt-14'>
+                    <div className='relative text-gray-500  mt-10'>
                         <label className='absolute -top-3 left-7 bg-white px-2 font-semibold text-sm'>Email</label>
                         <input type="email" placeholder='annie@example.com' className='border border-gray-300 w-[400px] px-9 py-5 rounded-md font-normal focus:outline-blue-400' />
                     </div>
-                    <div className='relative text-gray-500  mt-14'>
+                    <div className='relative text-gray-500  mt-10'>
                         <label className='absolute -top-3 left-7 bg-white px-2 font-semibold text-sm'>Password</label>
                         <input type="password" placeholder='*********' className='border border-gray-300 w-[400px] px-9 py-5 rounded-md font-normal focus:outline-blue-400' />
                     </div>

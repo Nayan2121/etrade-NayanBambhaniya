@@ -11,7 +11,7 @@ const ShopWithSidebar = () => {
         <>
             <div>
                 <section className='SHOP-DROPDOWN py-2 bg-[#292930]'>
-                    <div className='flex justify-between items-center px-24'>
+                    <div className='flex justify-between items-center px-72'>
                         <div className='flex '>
                             <AllDropdownHover1 />
                             <AllDropdownHover2/>
@@ -32,7 +32,7 @@ const ShopWithSidebar = () => {
                     <Speaker name="Explore All Products"/>
                 </section>
 
-                <section className='SHOP-FOOTER px-24'>
+                <section className='SHOP-FOOTER px-72'>
                 <SubscribePhoto/>
                     <Footer />
                 </section>

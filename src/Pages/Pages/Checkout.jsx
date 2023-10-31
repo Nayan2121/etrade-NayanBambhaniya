@@ -11,7 +11,7 @@ const Checkout = () => {
         <>
             <div>
                 <section className='SHOP-DROPDOWN py-2 bg-[#292930]'>
-                    <div className='flex justify-between items-center px-24'>
+                    <div className='flex justify-between items-center px-72'>
                         <div className='flex '>
                             <AllDropdownHover1 />
                             <AllDropdownHover2/>
@@ -20,7 +20,7 @@ const Checkout = () => {
                     </div>
                 </section>
 
-                <section className='SHOP-NAVBAR sticky top-0 z-20 '>
+                <section className='SHOP-NAVBAR sticky top-0 z-20'>
                     <AllNavBar />
                 </section>
 
@@ -28,11 +28,11 @@ const Checkout = () => {
                     <NavBottom />
                 </section>
 
-                <section className='SHOP-SPEAKER'>
+                {/* <section className='SHOP-SPEAKER'>
                     <Speaker />
-                </section>
+                </section> */}
 
-                <section className='SHOP-FOOTER px-24'>
+                <section className='SHOP-FOOTER px-72'>
                 <SubscribePhoto/>
                     <Footer />
                 </section>
