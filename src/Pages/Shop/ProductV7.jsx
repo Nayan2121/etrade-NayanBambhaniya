@@ -26,6 +26,7 @@ const ProductV7 = () => {
                 <section className='SHOP-NAV-BOTTOM'>
                     <NavBottom />
                 </section>
+                
 
                 <section className='SHOP-FOOTER px-72'>
                 <SubscribePhoto/>

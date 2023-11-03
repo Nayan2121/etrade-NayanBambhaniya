@@ -122,7 +122,7 @@ const Footer = () => {
                         <li className='nav-icon flex justify-center items-center rounded-full '><i class="ri-linkedin-fill text-lg"></i></li>
                     </ul>
                     <ul className='flex justify-between w-[20px] btn-hover hover:text-slate-100'>
-                        <li className='nav-icon flex justify-center items-center rounded-full'><i class="ri-discord-line text-lg"></i></li>
+                        <li className='nav-icon  rounded-full'></li><i class="ri-discord-line text-lg z-10 flex justify-center items-center"></i>
                     </ul>
                 </div>
 
