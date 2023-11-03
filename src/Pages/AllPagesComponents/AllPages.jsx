@@ -51,7 +51,7 @@ export default function AllPages() {
       {/* <ProductV4 /> */}
       {/* <ProductV5 /> */}
       {/* <ProductV6 /> */}
-      <ProductV7 />
+      {/* <ProductV7 /> */}
 
 
       {/* PAGES-SECTION-COMPONENTS  */}
@@ -59,7 +59,7 @@ export default function AllPages() {
       {/* <Wishlist/> */}
       {/* <Cart/> */}
       {/* <Checkout/> */}
-      {/* <Account/> */}
+      <Account/>
       {/* <SignUp/> */}
       {/* <SignIn/> */}
       {/* <ForgotPassword/> */}
