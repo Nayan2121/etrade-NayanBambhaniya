@@ -11,7 +11,7 @@ const Wishlist = () => {
         <>
             <div >
                 <section className='SHOP-DROPDOWN py-2 bg-[#292930]'>
-                    <div className='flex justify-between items-center px-72'>
+                    <div className='flex justify-between items-center  container mx-auto'>
                         <div className='flex '>
                             <AllDropdownHover1 />
                             <AllDropdownHover2 />
@@ -29,7 +29,7 @@ const Wishlist = () => {
                 </section>
 
                 <section className='TABLE-LIST'>
-                    <div className='px-72 my-[100px] '>
+                    <div className=' container mx-auto my-[100px] '>
                         <div>
                             <h1 className="text-2xl font-semibold text-[#292930]">
                                 My Wish List on eTrade
@@ -91,7 +91,7 @@ const Wishlist = () => {
                     </div>
                 </section>
 
-                <section className='SHOP-FOOTER px-72'>
+                <section className='SHOP-FOOTER  container mx-auto'>
                     <Footer />
                 </section>
             </div>

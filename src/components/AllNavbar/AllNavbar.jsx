@@ -5,7 +5,9 @@ import '../AllNavbar/AllNavstyle.css'
 export const  AllNavBar = () => {
     return (
 
-        <div className='flex justify-between items-center bg-white px-72 shadow-md'>
+        <div className=' bg-white shadow-md'>
+            <div className='flex justify-between items-center  container mx-auto'>
+
             {/* logo  */}
             <div>
                 <img src="./src/assets/home/asset 0.png" alt="" />
@@ -114,6 +116,7 @@ export const  AllNavBar = () => {
                     <li className='nav-icon h-10 w-10 flex justify-center items-center rounded-full'><i class="ri-user-3-line "></i></li>
                 </ul>
             </div>
+            </div>
         </div>
 
     )
@@ -125,7 +128,7 @@ export const NavBottom = () => {
     return (
         <>
             <div className='offer relative flex justify-center items-center'>
-                <img className='h-16 object-cover' src="./src/assets/shop/shopwithsidebar/asset 29.png" alt="" />
+                <img className='w-full h-16 object-cover' src="./src/assets/shop/shopwithsidebar/asset 29.png" alt="" />
                 <div className='absolute text-white'>
                     <i class="ri-arrow-left-line mr-10"></i>
                     <a className=' font-bold '>STUDENT NOW GET 10% OFF : <span className='underline hover:text-[#FF497C] duration-700'>GET OFFER</span></a>

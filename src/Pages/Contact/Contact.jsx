@@ -32,12 +32,12 @@ const Contact = () => {
                     <Speaker name="Contact With Us" />
                 </section>
 
-                <section className='FORM-MAP px-72'>
+                <section className='FORM-MAP  container mx-auto'>
                     <div className='flex my-[100px]'>
 
                         <div>
                             <h1 className='text-3xl font-semibold text-[#292930]'>We would love to hear from you.</h1>
-                            <p className='text-gray-500 mt-4'>If you’ve got great products your making or looking to work with us then drop us a line.</p>
+                            <p className='text-gray-500 mt-4'>If you've got great products your making or looking to work with us then drop us a line.</p>
 
                             <div>
                                 <div className='flex mt-10'>
@@ -47,7 +47,7 @@ const Contact = () => {
                                     </div>
                                     <div className='relative text-gray-500 mr-6'>
                                         <label className='absolute -top-3 left-7 bg-white px-2 font-semibold text-sm'>Phone<span className='text-[#E76458] ml-1'>*</span></label>
-                                        <input type="number" className='border border-gray-300  px-10 py-5 rounded-md font-normal focus:outline-blue-400' />
+                                        <input type="" className='border border-gray-300  px-10 py-5 rounded-md font-normal focus:outline-blue-400' />
                                     </div>
                                     <div className='relative text-gray-500'>
                                         <label className='absolute -top-3 left-7 bg-white px-2 font-semibold text-sm'>E-mail<span className='text-[#E76458] ml-1'>*</span></label>
@@ -101,7 +101,7 @@ const Contact = () => {
                     </div>
                 </section>
 
-                <section className='SHOP-FOOTER px-72'>
+                <section className='SHOP-FOOTER  container mx-auto'>
                     <Footer />
                 </section>
             </div>

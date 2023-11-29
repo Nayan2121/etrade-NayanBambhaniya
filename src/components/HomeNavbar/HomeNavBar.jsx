@@ -114,10 +114,4 @@ import '../HomeNavbar/HomeNavstyle.css'
     )
 }
 
-
 export default HomeNavBar
-
-
-
-
-

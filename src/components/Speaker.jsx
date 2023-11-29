@@ -3,7 +3,7 @@ import React from 'react'
 const Speaker = ({name}) => {
     return (
         <>
-            <div className='flex items-center justify-between h-52 bg-[#F8F8F8] px-72'>
+            <div className='flex items-center justify-between h-52 bg-[#F8F8F8]  container mx-auto'>
                 <div>
                     <a className='text-gray-500 hover:text-blue-600 mr-2' href="">Home</a>
                     <a className=' text-gray-400' href="">|</a>

@@ -59,25 +59,27 @@ export default function AllPages() {
       {/* <Wishlist/> */}
       {/* <Cart/> */}
       {/* <Checkout/> */}
-      <Account/>
+      {/* <Account/> */}
       {/* <SignUp/> */}
       {/* <SignIn/> */}
       {/* <ForgotPassword/> */}
       {/* <ResetPassword/> */}
       {/* <PrivacyPolicy/> */}
       {/* <ComingSoon/> */}
-      {/* <Error404 /> */}
+      <Error404 />
       {/* <Typography/> */}
 
       {/* ABOUT-SECTION-COMPONENT  */}
       {/* <About /> */}
 
       {/* BLOG-SECTION-CPMPONENTS  */}
+
       
 
       {/* CONTACT-SECTION-COMPONENT  */}
       {/* <Contact />  */}
     </>
   )
+
 }
 

@@ -11,7 +11,7 @@ const Account = () => {
         <>
             <div>
                 <section className='SHOP-DROPDOWN py-2 bg-[#292930]'>
-                    <div className='flex justify-between items-center px-72'>
+                    <div className='flex justify-between items-center  container mx-auto'>
                         <div className='flex '>
                             <AllDropdownHover1 />
                             <AllDropdownHover2 />
@@ -29,7 +29,7 @@ const Account = () => {
                 </section>
 
                 <section>
-                    <div className='grid grid-cols-2 px-72 mt-20'>
+                    <div className='grid grid-cols-2  container mx-auto mt-20'>
                         <div>
                             <div className='p-5 bg-[#F6F7FB] rounded-md mb-5'>
                                 <p className='text-[#777777]'><i class="ri-user-3-fill mr-2 text-base"></i>Returning customer?<span className='text-black font-medium text-base'><a href="">Click here to login</a><i class="ri-arrow-down-s-line ml-1 text-[#777777] text-xl "></i></span></p>
@@ -125,7 +125,7 @@ const Account = () => {
                     <Speaker name="Explore All Products"/>
                 </section> */}
 
-                <section className='SHOP-FOOTER px-72'>
+                <section className='SHOP-FOOTER  container mx-auto'>
                     {/* <SubscribePhoto /> */}
                     <Footer />
                 </section>
@@ -133,5 +133,6 @@ const Account = () => {
         </>
     )
 }
+<div className="3"></div>
 
 export default Account

@@ -10,7 +10,7 @@ const About = () => {
         <>
             <div>
                 <section className='SHOP-DROPDOWN py-2 bg-[#292930]'>
-                    <div className='flex justify-between items-center px-72'>
+                    <div className='flex justify-between items-center  container mx-auto'>
                         <div className='flex '>
                             <AllDropdownHover1 />
                             <AllDropdownHover2 />
@@ -32,7 +32,7 @@ const About = () => {
                 </section>
 
                 <section className='ABOUT-SECTION'>
-                    <div className='px-72'>
+                    <div className=' container mx-auto'>
                         <div className='About-Store flex items-center mt-[100px] mb-[250px]'>
                             <div>
                                 <img src="../src/assets/about/asset 3.png" alt="" />
@@ -75,7 +75,7 @@ const About = () => {
                     </div>
 
                     <div className='our-team bg-[#F6F6F6]'>
-                        <div className='px-72 pt-[200px]'>
+                        <div className=' container mx-auto pt-[200px]'>
                             <div className='flex justify-between items-center '>
                                 <div className='flex mb-2'>
                                     <i class="ri-team-fill h-6 w-6 text-base border bg-[#8C71DB] text-white rounded-full flex items-center justify-center"></i>
@@ -125,7 +125,7 @@ const About = () => {
                     </div>
 
                     <div className='Solution'>
-                        <div className='px-72'>
+                        <div className=' container mx-auto'>
 
                             <div className=' flex items-center mt-[100px] '>
                                 <div>
@@ -155,7 +155,7 @@ const About = () => {
                     </div>
                 </section>
 
-                <section className='SHOP-FOOTER px-72'>
+                <section className='SHOP-FOOTER  container mx-auto'>
                     <SubscribePhoto />
                     <Footer />
                 </section>

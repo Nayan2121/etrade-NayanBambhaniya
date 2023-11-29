@@ -10,7 +10,7 @@ const ProductV4 = () => {
         <>
             <div>
                 <section className='SHOP-DROPDOWN py-2 bg-[#292930]'>
-                    <div className='flex justify-between items-center px-72'>
+                    <div className='flex justify-between items-center  container mx-auto'>
                         <div className='flex '>
                             <AllDropdownHover1 />
                             <AllDropdownHover2 />
@@ -27,7 +27,7 @@ const ProductV4 = () => {
                     <NavBottom />
                 </section>
 
-                <section className='SHOP-FOOTER px-72'>
+                <section className='SHOP-FOOTER  container mx-auto'>
                     <SubscribePhoto />
                     <Footer />
                 </section>

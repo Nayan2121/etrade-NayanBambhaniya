@@ -25,7 +25,7 @@ const Typography = () => {
                     <NavBottom />
                 </section>
 
-                <section className='px-72 my-[100px]'>
+                <section className=' container mx-auto my-[100px]'>
                     <div className='grid grid-cols-2 text-[#292930] font-semibold '>
                         <div className='mr-[15px]'>
                             <h1 className='text-[46px] mb-[30px]'>h1 - A Visual Type Scale</h1>
@@ -52,7 +52,7 @@ const Typography = () => {
                     </div>
                 </section>
 
-                <section className='SHOP-FOOTER px-72'>
+                <section className='SHOP-FOOTER  container mx-auto'>
                     <Footer />
                 </section>
             </div>
